@@ -17,6 +17,7 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
 
-client.run(os.getenv(my_secret))
+client.run(my_secret)
 # print(my_secret)
+#  test
 
